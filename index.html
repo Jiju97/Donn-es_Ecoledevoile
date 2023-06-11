@@ -1,0 +1,79 @@
+﻿//Graphique 1
+
+Plot.plot({
+color: {
+    scheme:"BuRd",
+    legend:true,
+  type: "linear",
+ },
+  marks: [
+    Plot.barX(geodata2, {x: "Nombre de clients", y: "Région", fill: "Nombre de clients",sort: {y: "x", reverse: true}, stroke: "Nombre de clients", tip: true }),
+    Plot.ruleX([0]),
+    Plot.axisX([0,25,50,75,100,125,150,175,200], {labelAnchor:"center",labelArrow: "none"}),
+],
+  
+  marginLeft: 70,
+  marginBottom: 50,
+  
+});
+
+
+
+
+
+
+          
+//Graphique 2 - Menu déroulant. Création de geodata afin de grouper les origines.
+
+viewof geodata = Inputs.select(origines, {label: "Origine"})
+
+origines = d3.group(geodata1, d => d.Origine)
+
+//Graphique 2
+
+Plot.plot({
+  x: {tickRotate: -90},
+  
+  marks: [
+    () => htl.svg`<defs>
+      <linearGradient id="gradient" gradientTransform="rotate(90)">
+        <stop offset="15%" stop-color="darkblue"/>
+        <stop offset="75%" stop-color="blue" />
+        <stop offset="100%" stop-color="lightblue" />
+      </linearGradient>
+    </defs>`,
+
+Plot.barY(geodata, {y: "Nombre de clients", x: "Ville", sort: {x: "y", reverse: true}, fill:"url(#gradient)", tip: true}),
+  
+Plot.ruleY([0]), 
+Plot.axisY({labelAnchor:"center",labelArrow: "none"})
+     
+  ],
+  
+marginTop:50,
+marginBottom: 150,
+marginRight: 10,
+marginLeft: 50,
+ 
+})
+
+
+
+
+
+
+//Graphique 3
+Plot.plot({
+  marks: [
+    Plot.barX(coursfinances, Plot.groupY({x:"count"}, {y:"Produits", sort: {y: "x", reverse: true, limit: 10}, fill: "lightblue", tip: true})),
+    Plot.axisY({fill: "Grey"}),
+    Plot.axisX({label:"Total",labelArrow:"none",labelAnchor:"center",fill:"Grey"}),
+    Plot.gridX({stroke: "White",strokeOpacity: 1}),
+    Plot.ruleX([0]),
+
+  ],
+
+  marginLeft: 200,
+  marginBottom:50,
+   
+  });
