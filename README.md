@@ -7,7 +7,8 @@ Il s'agit d'un projet de visualisation sur l'origine de la clientèle ainsi que 
 
 
 
-La visualisation comporte trois graphiques réalisé sur Observable Plot: [[https://observablehq.com/d/5d5d1630fcba0751](https://observablehq.com/@dsdsd/donnees-ecole-de-voile)](https://observablehq.com/@dsdsd/donnees-ecole-de-voile)
+La visualisation comporte trois graphiques réalisé sur Observable Plot: https://observablehq.com/d/5d5d1630fcba0751
+
 
 <img width="577" alt="Graph1" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/1dd5b498-7887-4669-895b-6cf0e9421af3">
 
