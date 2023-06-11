@@ -10,8 +10,7 @@ Il s'agit d'un projet de visualisation sur l'origine de la clientèle ainsi que 
 La visualisation comporte trois graphiques réalisé sur Observable Plot: https://observablehq.com/d/5d5d1630fcba0751
 
 
-<img width="577" alt="Graph1" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/1dd5b498-7887-4669-895b-6cf0e9421af3">
-
+<img width="577" alt="Graph1" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/a81a7abf-e879-49ab-9a95-92725eb23a55">
 
 
 <img width="358" alt="Graph 2" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/f787e345-cda5-4d7b-a899-42c6b492ea73">
