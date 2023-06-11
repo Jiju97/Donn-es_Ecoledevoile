@@ -11,7 +11,21 @@ La visualisation comporte trois graphiques.
 
 
 
+
+
+
+
+
+
 <img width="358" alt="Graph 2" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/f787e345-cda5-4d7b-a899-42c6b492ea73">
+
+
+
+
+
+
+
+
 
 
 <img width="492" alt="Graph 3" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/74268594-d30d-4d00-9041-912a1485ed6d">
