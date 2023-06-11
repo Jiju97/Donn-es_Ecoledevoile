@@ -13,10 +13,10 @@ La visualisation comporte trois graphiques réalisé sur Observable Plot: https:
 <img width="577" alt="Graph1" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/a81a7abf-e879-49ab-9a95-92725eb23a55">
 
 
-<img width="358" alt="Graph 2" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/f787e345-cda5-4d7b-a899-42c6b492ea73">
+<img width="358" alt="Graph 2" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/fcce171e-e30f-4676-a358-99c2e35a8150">
 
 
-<img width="492" alt="Graph 3" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/74268594-d30d-4d00-9041-912a1485ed6d">
+<img width="492" alt="Graph 3" src="https://github.com/Jiju97/Donn-es_Ecoledevoile/assets/136253358/7b2355e7-650b-4daa-9a4a-2fe5819a755a">
 
 
 
